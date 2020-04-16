@@ -10,7 +10,8 @@ Test RabbitMQ Implementation
     docker run -d -p 15672:15672 -p 5672:5672 --name rabbit-test rabbitmq:3-management
 ```
 * Open the projects folder and run
-``` cd CapturePurchase
+``` 
+    cd CapturePurchase
     dotnet run
     cd PaymentPurchase
     dotnet run
